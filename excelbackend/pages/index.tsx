@@ -82,6 +82,9 @@ export default function Home() {
     <>
       Maximum Bid Price Nhimble: <h1>{score}</h1>
       Total Acquisition Cost MPH:<h1>{score2}</h1>
+      <br />
+      <br />
+      <h2>Doorvest</h2>
       Rehab:<input
         type="text"
         id="rehab"
@@ -97,6 +100,7 @@ export default function Home() {
         value={arv}
       />
       <br></br>
+      <h2>MPH</h2>
       Maxmium Bid Price: 
       <input
         type="text"
